@@ -1,0 +1,78 @@
+.result {
+  width: auto;
+  height: 450px;
+  background-color: black;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.picture {
+  width: 300px;
+  line-height: auto;
+  font-family: sans-serif;
+  color: white;
+  padding: 20px;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+
+}
+
+.row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.omdb_title {
+  font-size: 56px;
+  font-family: sans-serif;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.title {
+  padding-right:10px;
+  font-family: sans-serif;
+}
+
+.search {
+  font-size: 24px;
+  float: right;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.detail_image {
+  position: relative;
+  float: left;
+  padding-left: 33%;
+  
+}
+
+.detail_introduce {
+  padding-left: 50px;
+  float: left;
+}
+
+.detail_title {
+  width: 600px;
+  padding-top: 50px;
+  font-size: 32px;
+}
+
+.detail_data {
+  font-size: 24px;
+  padding-top: 100px;
+  text-align: left;
+}
